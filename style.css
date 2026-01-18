@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family:"Inter"sans-serif;  
+}
+nav{
+    max-width: 1200px;
+    height: 44px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    
+    padding: 3px;
+
+}
+nav>h1{
+    width: 219px;
+    height: 32px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.mune{
+    display: flex;
+}
+
+
+.mune{
+    width: 218px;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+
+.btn{
+    width: 145px;
+    height: 44px;
+    padding: 10px 15px;
+    border: 1px white;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+
+}
