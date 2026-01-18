@@ -51,3 +51,32 @@ nav>h1{
     background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
 
 }
+.bars{
+    display: none;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    .mune{
+        display: none;
+    }
+    .bars{
+    display: block;
+    margin-right: 5px;
+}
+.navbtn{
+    display: none;
+}
+
+
+
+}
