@@ -254,7 +254,7 @@ nav>h1{
     gap: 10px;
     
     text-align: center;
-  /*   border: 2px solid white; */
+
     align-items: center;
     padding: 0 5px;
 }
@@ -270,6 +270,90 @@ nav>h1{
     line-height: 20px;
 
 }
+/* choose container */
+.choose-container{
+    max-width: 75%;
+    margin: 0 auto;
+   
+}
+.choose-title{
+   
+    
+    max-width: 1200px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.choose-title h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.choose-cad{
+    width: 380px;
+    height: 270px;
+    
+    padding: 40px;
+    background-color: #351165;
+    border-radius: 40px;
+    align-items: center;
+    
+    
+    
+}
+
+.choose-cad>h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.choose-cad>p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.Choose-cad-container{
+width: 100%;
+height: 782px;
+margin-top: 50px;
+
+display: grid;
+gap: 30px;
+
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,400px);
+
+}
+.choose-cad{
+    width: 100%;
+    height: 100%;
+}
+.ch1{
+    grid-column: span 1;
+    grid-row: span 2;
+    
+    gap: 16px;
+    align-items: center;
+    padding: 200px 40px;
+    justify-content: center;
+    align-items: center;
+
+    
+
+    
+}
+.ch2{
+    grid-column: span 2;
+    grid-row: span 1;
+    padding-top: 100px;
+
+    
+}
+
 
 
 
@@ -349,8 +433,26 @@ nav>h1{
 
 }
 
-
-
-
-
+.Choose-cad-container{
+    display: flex;
+    flex-direction: column;
 }
+.ch1{
+    grid-column: span 1;
+    grid-row: span 1;
+    
+    gap: 16px;
+    align-items: center;
+    padding:  40px;
+
+
+    
+
+    
+}
+}
+
+
+
+
+
