@@ -1,12 +1,14 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     font-family:"Inter"sans-serif;  
+     font-family: "Inter", sans-serif;
 }
 nav{
     max-width: 1200px;
@@ -48,14 +50,131 @@ nav>h1{
     border-radius: 30px;
     font-size: 15px;
     font-weight: 600;
-    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
+ 
+
+}
+
+.btng{  background: linear-gradient(47.64deg, rgba(247, 233, 63, 1) 16.531%,rgba(251, 9, 180, 1) 49.819%,rgba(145, 0, 248, 1) 81.648%);
 
 }
 .bars{
     display: none;
     margin-right: 5px;
 }
+#banner{
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1600px;
+    height: 760px;
+    padding: 0 auto;
 
+
+
+}
+.banner-container{
+    width: 550px;
+    
+    border: 1px solid red;
+    margin: 0 auto;
+    
+    
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+.banner-images-container{
+    position: relative;
+    width: 340px;
+    height:340px ;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.banner-imagest2{
+    position: absolute;
+    top: 25%;
+    left: 33%;
+}
+
+
+
+
+
+.new{
+    position: absolute;
+    color: #1A0B2E;
+    background-color: #00FF88;
+    width: 75px;
+    height: 38px;
+    border-radius: 1000px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    left: 80%;
+
+
+}
+.banner-title{
+    border: 1px solid wheat;
+    margin-top: 40px;
+}
+.banner-tex h3{
+    font-size: 60px;
+    font-weight: 800;
+    width: 550px;
+    margin: 0 auto;
+    
+
+}
+.banner-tex p{
+    width: 550px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 20px;
+
+}
+.banner-btn-container{
+    margin-top: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.bbtn1{
+    display: flex;
+    width: 200px;
+    height: 44px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    gap: 5px;
+    
+    
+  
+}
+.bbtn2{
+    display: flex;
+    height: 44px;
+    width: 148px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    gap: 5px;
+    color: #00FF88;
+    border: solid #00FF88;
+    
+    background-color: transparent;
+    
+}
 
 
 
