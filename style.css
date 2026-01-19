@@ -75,7 +75,7 @@ nav>h1{
 .banner-container{
     width: 550px;
     
-    border: 1px solid red;
+
     margin: 0 auto;
     
     
@@ -121,7 +121,7 @@ nav>h1{
 
 }
 .banner-title{
-    border: 1px solid wheat;
+
     margin-top: 40px;
 }
 .banner-tex h3{
@@ -195,7 +195,24 @@ nav>h1{
 .navbtn{
     display: none;
 }
+#banner{
+    width: 400px;
+    background-position: center;
+    background-size: 100%;
+}
+.banner-title{
+    padding: 20px
+
+}
+.banner-container{
+    margin: 0 auto;
+}
 
 
+.banner-tex p{
+    width: 350px;
+    justify-content: center;
+    margin: 0 auto;
+    
 
 }
