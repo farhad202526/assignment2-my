@@ -17,7 +17,7 @@ nav{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-    margin-bottom: 30px;
+   
     align-items: center;
     
     padding: 3px;
@@ -91,12 +91,18 @@ nav>h1{
     height:340px ;
     margin: 0 auto;
     margin-top: 70px;
+    top:60px;
+    left: -5px;
 }
 
 .banner-imagest2{
     position: absolute;
     top: 25%;
     left: 33%;
+}
+.banner-imagest1{
+    position: absolute;
+    top: 100px;
 }
 
 
@@ -122,7 +128,7 @@ nav>h1{
 }
 .banner-title{
 
-    margin-top: 40px;
+    margin-top: 100px;
 }
 .banner-tex h3{
     font-size: 60px;
@@ -141,7 +147,7 @@ nav>h1{
 
 }
 .banner-btn-container{
-    margin-top: 10px;
+    margin-top: 20px;
     gap: 10px;
     display: flex;
     justify-content: center;
@@ -185,6 +191,7 @@ nav>h1{
 
 
 @media screen and (max-width:576px){
+    
     .mune{
         display: none;
     }
@@ -196,6 +203,7 @@ nav>h1{
     display: none;
 }
 #banner{
+    margin-top: 20px;
     width: 400px;
     background-position: center;
     background-size: 100%;
@@ -213,6 +221,24 @@ nav>h1{
     width: 350px;
     justify-content: center;
     margin: 0 auto;
+    font-size: 13px;
     
+
+}
+.banner-btn-container{
+    margin-top: 10px;
+
+
+}
+.banner-title{
+    margin-top: 65px;
+}
+
+.banner-images-container{
+    
+    margin-top: 10px;
+}
+
+
 
 }
