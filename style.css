@@ -498,6 +498,7 @@ grid-template-rows: repeat(3,400px);
          justify-content: space-between;
          gap: 26px;
          padding: 20px;
+         border-radius: 30px;
         
         
 
