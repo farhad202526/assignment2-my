@@ -66,8 +66,8 @@ nav>h1{
     background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-   /*  max-width: 100%; */
-    width: 100%;
+    max-width: 100%;
+
     height: 760px;
     padding: 0 auto;}
 
@@ -215,7 +215,8 @@ nav>h1{
 
    max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid red;
+    
+
    
     text-align: center;
 }
@@ -369,8 +370,90 @@ grid-template-rows: repeat(3,400px);
     
 }
 
-/* .t{
-    width: 1000px; */
+
+/* featured section */
+#featured{
+    margin-top: 500px;
+    max-width: 100%;
+}
+    
+.featured-container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    border: 1px solid red;
+}
+    .featured-container>h3{
+
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-top: 100px;
+        /* margin-bottom: 50px; */
+
+    }
+    .video-container{
+        margin-top: 50px;
+        border: 2px solid green;
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        
+        
+   
+    
+        
+        
+    }
+    
+    .video{
+        
+        width: 320px;
+        height: auto;
+        border: solid whitesmoke;
+        background-color: #250D44;
+        border-radius: 30px;
+        overflow: hidden;
+    }
+    .video1{
+        width: 100%;
+        height: auto;
+        margin: 2px 2px;
+        
+        
+    }
+
+    .video-title{
+        width: 332px;
+        height: 226px;
+        margin: 0 auto;
+        border: 1px solid aqua;
+        padding: 24px;
+        
+    
+    }
+   
+    
+    .video-title>h3{
+
+        font-size: 20px;
+        font-weight: 700;
+        
+
+    }
+    .video-title>p{
+
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 25px;
+
+    }
+    .video-time{
+        display: flex;
+        margin-top: 20px;
+        gap: 10px;
+    }
     
 
 
@@ -480,6 +563,17 @@ grid-template-rows: repeat(3,400px);
     align-items: center;
     padding:  40px;
 }
+
+  
+  
+  #featured{
+    margin-top: 900px;
+    
+}
+
+        
+    
+
 
 
 
