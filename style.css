@@ -673,7 +673,9 @@ grid-template-rows: repeat(3,400px);
 }
 
   #featured{
-    margin-top: 1400px;
+    margin-top: 1350px;
+    
+   
     
 }
 
@@ -682,6 +684,12 @@ grid-template-rows: repeat(3,400px);
     flex-direction: column;
     gap: 50px;
     margin-left: 100px;
+}
+/* meet section */
+
+.meet{
+        
+        margin-top: 60px;
 }
 
 .meet-container{
