@@ -118,7 +118,15 @@ nav>h1{
 }
 
 
-
+@keyframes new1 {
+    from{
+        left: 0;
+    }
+    to{
+        right: 50px;
+    }
+    
+}
 
 
 .new{
@@ -135,9 +143,12 @@ nav>h1{
     align-items: center;
     top: 10%;
     left: 80%;
+    animation: new1 3s ease-in-out 1s infinite alternate ;
 
 
 }
+
+
 /* banner title */
 .banner-title{
 
@@ -546,11 +557,11 @@ grid-template-rows: repeat(3,400px);
     .footer-item{
         display: flex;
         gap: 5px;
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     .footer-cpy{
-        margin-top: 10px;
+        margin-top: 30px;
         font-size: 16px;
         font-weight: 400;
     }
@@ -654,14 +665,14 @@ grid-template-rows: repeat(3,400px);
 /* .Choose-cad-container{
     grid-template-columns: repeat(1,1fr); */
 }
-.ch1{
+/* .ch1{
     grid-column: span 1;
-    grid-row: span 1;
+    grid-row: span 2;
     
     gap: 16px;
     align-items: center;
     padding:  40px;
-}
+} */
 
   
   
