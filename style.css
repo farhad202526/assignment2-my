@@ -66,7 +66,8 @@ nav>h1{
     background-image: url(./assets/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1600px;
+   /*  max-width: 100%; */
+    width: 100%;
     height: 760px;
     padding: 0 auto;}
 
@@ -137,6 +138,7 @@ nav>h1{
 
 
 }
+/* banner title */
 .banner-title{
 
     margin-top: 100px;
@@ -200,17 +202,20 @@ nav>h1{
 }
 
 .contant-container{
+    max-width: 1200px;
     justify-content: center;
     max-width: 75%;
-   
-    margin: 0 auto;
+     margin: 0 auto;
+     justify-items: center;
   
-    
 }
 .contant-taxt{
+    
+   /*  max-width: 75%; */
+
+   max-width: 1200px;
     margin: 0 auto;
-    max-width: 75%;
-    margin: 0 auto;
+    border: 1px solid red;
    
     text-align: center;
 }
@@ -222,9 +227,9 @@ nav>h1{
 }
 
 .contant-taxt-p{
-   /*  border: 4px solid green; */
+   
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 20px;
     color: #D9D9D9;
@@ -233,14 +238,20 @@ nav>h1{
 
 .cad-container{
     
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     
     max-width: 75%;
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 100px;
-    padding: 10px;
+    padding: 10px; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+
+
+
     
 
     
@@ -271,7 +282,11 @@ nav>h1{
 
 }
 /* choose container */
+
+
+
 .choose-container{
+
     max-width: 75%;
     margin: 0 auto;
    
@@ -354,6 +369,16 @@ grid-template-rows: repeat(3,400px);
     
 }
 
+/* .t{
+    width: 1000px; */
+    
+
+
+
+
+
+
+
 
 
 
@@ -413,10 +438,13 @@ grid-template-rows: repeat(3,400px);
     
     margin-top: 10px;
 }
+
+/* contant section */
 .contant-container{
+    margin: 0 auto;
     margin-top: -80px;
     max-width: 90%;
-    margin: 0 auto;
+    
     
     
     
@@ -428,6 +456,9 @@ grid-template-rows: repeat(3,400px);
 
 }
 .cad-container{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
+
     
     margin-top: 30px;
 
@@ -437,6 +468,10 @@ grid-template-rows: repeat(3,400px);
     display: flex;
     flex-direction: column;
 }
+
+/* .Choose-cad-container{
+    grid-template-columns: repeat(1,1fr); */
+}
 .ch1{
     grid-column: span 1;
     grid-row: span 1;
@@ -444,13 +479,8 @@ grid-template-rows: repeat(3,400px);
     gap: 16px;
     align-items: center;
     padding:  40px;
-
-
-    
-
-    
 }
-}
+
 
 
 
